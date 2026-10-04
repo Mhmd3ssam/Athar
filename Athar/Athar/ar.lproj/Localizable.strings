@@ -1,0 +1,180 @@
+"timeline.title" = "الرئيسية";
+"timeline.last7days" = "آخر ٧ أيام";
+"timeline.empty.title" = "لا توجد مستندات حديثة";
+"timeline.empty.body" = "صوّر ورقة لتبدأ في تتبعها.";
+"timeline.scanDocument" = "تصوير مستند";
+"timeline.viewArchive" = "عرض الأرشيف";
+
+"nav.timeline" = "الرئيسية";
+"nav.scan" = "تصوير";
+"nav.archive" = "الأرشيف";
+
+"archive.title" = "الأرشيف";
+"archive.search" = "بحث في الأرشيف";
+"archive.empty.title" = "لا توجد مستندات مؤرشفة";
+"archive.empty.body" = "ستظهر هنا الأوراق القديمة وأي مستند تقوم بأرشفته.";
+"archive.backToTimeline" = "العودة إلى الرئيسية";
+
+"settings.title" = "الإعدادات";
+"settings.documents" = "المستندات";
+"settings.manageStatuses" = "إدارة الحالات";
+"settings.manageStatuses.subtitle" = "إضافة وتعديل وترتيب";
+"settings.appearance" = "المظهر";
+"settings.language" = "اللغة";
+"settings.storage" = "التخزين";
+"settings.images" = "الصور";
+"settings.savedOnDevice" = "محفوظة على هذا الجهاز";
+"settings.inAppStorage" = "داخل تخزين التطبيق";
+"settings.storage.note" = "تظل الصور على هذا الجهاز. لا يوجد نسخ احتياطي أو تصدير أو مزامنة.";
+
+"appearance.system" = "تلقائي";
+"appearance.light" = "فاتح";
+"appearance.dark" = "داكن";
+"language.english" = "الإنجليزية";
+"language.arabic" = "العربية";
+
+"scan.permission.title" = "استخدم الكاميرا";
+"scan.permission.body" = "اسمح بالوصول إلى الكاميرا لتصوير مستنداتك.";
+"scan.permission.continue" = "متابعة";
+"scan.permission.notNow" = "ليس الآن";
+"scan.permission.storageNote" = "يتم حفظ الصور داخل أثر على هذا الجهاز.";
+
+"common.close" = "إغلاق";
+"common.back" = "رجوع";
+
+"statuses.manage.title" = "إدارة الحالات";
+"statuses.add" = "إضافة حالة";
+"statuses.add.title" = "إضافة حالة";
+"statuses.add.action" = "إضافة الحالة";
+"statuses.edit" = "تعديل الحالة";
+"statuses.edit.title" = "تعديل الحالة";
+"statuses.moveUp" = "تحريك لأعلى";
+"statuses.moveDown" = "تحريك لأسفل";
+"statuses.retired" = "متوقفة";
+"statuses.reactivate" = "إعادة تفعيل الحالة";
+"statuses.archiveNote" = "المستندات المؤرشفة تظل كما هي.";
+"statuses.editor.name" = "الاسم";
+"statuses.editor.namePlaceholder" = "اسم الحالة";
+"statuses.editor.color" = "اللون";
+"statuses.editor.colorChoice" = "لون الحالة";
+"statuses.editor.icon" = "الأيقونة";
+"statuses.editor.preview" = "معاينة";
+"statuses.editor.availableHint" = "تظهر عند حفظ مستند أو تغيير حالته.";
+"statuses.editor.historyNote" = "التغييرات تطبق على المستندات النشطة. تسميات الأرشيف والسجل تظل كما هي.";
+"statuses.validation.blank" = "أدخل اسم الحالة.";
+"statuses.validation.duplicate" = "توجد حالة بهذا الاسم بالفعل.";
+"statuses.validation.long" = "استخدم ٤٠ حرفًا أو أقل.";
+"statuses.validation.saveFailed" = "تعذر حفظ الحالة. حاول مرة أخرى.";
+"statuses.delete.title" = "حذف الحالة غير المستخدمة؟";
+"statuses.delete.message" = "لا توجد مستندات تستخدم هذه الحالة.";
+"statuses.delete.action" = "حذف الحالة";
+"statuses.retire.title" = "إيقاف هذه الحالة؟";
+"statuses.retire.message" = "لن تظهر في الاختيارات الجديدة. ستظل موجودة في المستندات الحالية والسجل.";
+"statuses.retire.action" = "إيقاف الحالة";
+"statuses.keepOne.title" = "يلزم وجود حالة";
+"statuses.keepOne.message" = "احتفظ بحالة واحدة على الأقل. أضف حالة أخرى أولًا.";
+
+"common.cancel" = "إلغاء";
+"common.ok" = "حسنًا";
+"common.more" = "المزيد من الإجراءات";
+"common.saveChanges" = "حفظ التغييرات";
+
+"scan.denied.title" = "الوصول إلى الكاميرا متوقف";
+"scan.denied.body" = "فعّل الوصول إلى الكاميرا من الإعدادات لتصوير ورقة.";
+"scan.denied.settings" = "فتح الإعدادات";
+
+"document.new.title" = "مستند جديد";
+"document.enlarge" = "عرض الصورة كاملة";
+"document.retake" = "إعادة التصوير";
+"document.name" = "اسم المستند";
+"document.name.placeholder" = "اختياري";
+"document.status" = "الحالة";
+"document.status.choose" = "اختر الحالة";
+"document.note" = "إضافة ملاحظة (اختياري)";
+"document.note.placeholder" = "أضف ملاحظة…";
+"document.captured" = "تم التصوير";
+"document.save" = "حفظ المستند";
+"document.saving" = "جارٍ الحفظ…";
+"document.saving.device" = "يتم الحفظ على هذا الجهاز.";
+"document.saveError.title" = "تعذر حفظ المستند.";
+"document.saveError.body" = "صورتك وتفاصيلك ما زالت موجودة. حاول مرة أخرى.";
+
+"timeline.today" = "اليوم";
+"timeline.yesterday" = "أمس";
+"timeline.updated" = "آخر تحديث %@";
+
+"document.created" = "تاريخ الإنشاء";
+"document.updated" = "آخر تحديث";
+"document.image.unavailable" = "الصورة غير متاحة";
+"document.viewer.hint" = "قرّب بإصبعين أو اضغط مرتين للتكبير";
+"document.status.change" = "تغيير";
+"document.status.add" = "إضافة حالة جديدة";
+"document.status.saveError" = "تعذر تغيير الحالة. حاول مرة أخرى.";
+"document.history.title" = "السجل";
+"document.history.viewAll" = "عرض الكل";
+"document.history.note" = "تاريخ الإنشاء ثابت. يحتفظ السجل بالتسميات المستخدمة وقت كل تغيير.";
+"document.history.created" = "تم إنشاء المستند";
+"document.history.statusChanged" = "تم تغيير الحالة";
+"document.history.noteAdded" = "تمت إضافة ملاحظة";
+"document.history.nameChanged" = "تم تغيير الاسم";
+"document.history.archived" = "تمت الأرشفة يدويًا";
+"document.history.restored" = "تمت الاستعادة إلى الرئيسية";
+"document.history.updated" = "تم التحديث";
+"document.notes.title" = "الملاحظات";
+"document.notes.empty" = "لا توجد ملاحظات بعد.";
+"document.note.add" = "إضافة ملاحظة";
+"document.note.save" = "حفظ الملاحظة";
+"document.note.saveError" = "تعذر حفظ الملاحظة. حاول مرة أخرى.";
+"document.note.discard.title" = "تجاهل الملاحظة؟";
+"document.note.discard.keep" = "متابعة التعديل";
+"document.note.discard.action" = "تجاهل";
+
+"common.undo" = "تراجع";
+
+"document.archive.action" = "أرشفة المستند";
+"document.restore.action" = "استعادة إلى الرئيسية";
+"document.delete.action" = "حذف المستند";
+"document.delete.confirm.title" = "حذف المستند نهائيًا؟";
+
+"archive.search.placeholder" = "بحث في الأرشيف";
+"archive.search.clear" = "مسح البحث";
+"archive.search.empty" = "لا توجد مستندات مطابقة";
+"archive.week.this" = "هذا الأسبوع";
+"archive.week.older" = "أسبوع أقدم";
+"archive.reason.manual" = "تمت الأرشفة يدويًا";
+"archive.reason.automatic" = "أقدم من ٧ أيام";
+"archive.badge" = "مؤرشف";
+"archive.statusWhenArchived" = "الحالة وقت الأرشفة";
+"archive.archivedAt" = "تاريخ الأرشفة";
+"archive.restore.note" = "يعود لمدة ٧ أيام مع الاحتفاظ بالتواريخ الأصلية.";
+"archive.feedback.archived" = "تمت أرشفة المستند";
+"archive.feedback.restored" = "عاد إلى الرئيسية لمدة ٧ أيام.";
+
+"timeline.section.week" = "الأسبوع";
+"timeline.section.restored" = "المسترجعة";
+
+"common.tryAgain" = "حاول مرة أخرى";
+
+"scan.error.title" = "تعذر فتح الماسح";
+"scan.error.body" = "الماسح غير متاح الآن. حاول مرة أخرى أو ارجع إلى الرئيسية.";
+
+"document.saveError.retry" = "إعادة محاولة الحفظ";
+"document.discard.title" = "تجاهل هذا المستند؟";
+"document.discard.body" = "سيتم تجاهل الصورة الملتقطة والتفاصيل غير المحفوظة.";
+"document.discard.keep" = "متابعة التعديل";
+"document.discard.action" = "تجاهل";
+
+"document.image.error.title" = "تعذر فتح هذه الصورة";
+"document.image.error.body" = "تفاصيل المستند وسجله ما زالا محفوظين على هذا الجهاز.";
+"document.image.retry" = "إعادة محاولة الصورة";
+"document.saveError.storageTitle" = "لا توجد مساحة كافية للحفظ";
+"document.saveError.storageBody" = "حرر بعض المساحة على جهازك ثم حاول مرة أخرى. صورتك ما زالت موجودة.";
+
+"timeline.firstLaunch.title" = "تتبّع أول ورقة";
+"timeline.firstLaunch.body" = "صوّر مستندًا واختر حالته. تظل الصور محفوظة على هذا الجهاز.";
+
+"settings.images.gallery.title" = "الصور";
+"settings.images.gallery.empty" = "لا توجد صور محفوظة بعد";
+
+"document.delete.sheet.title" = "حذف هذا المستند؟";
+"document.delete.sheet.body" = "سيتم حذف صورته وملاحظاته وسجله نهائيًا من هذا الجهاز.";

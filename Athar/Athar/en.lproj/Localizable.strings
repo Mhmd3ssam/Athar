@@ -1,0 +1,180 @@
+"timeline.title" = "Timeline";
+"timeline.last7days" = "Last 7 days";
+"timeline.empty.title" = "No recent documents";
+"timeline.empty.body" = "Scan a paper to start tracking it.";
+"timeline.scanDocument" = "Scan document";
+"timeline.viewArchive" = "View archive";
+
+"nav.timeline" = "Timeline";
+"nav.scan" = "Scan";
+"nav.archive" = "Archive";
+
+"archive.title" = "Archive";
+"archive.search" = "Search archive";
+"archive.empty.title" = "No archived documents";
+"archive.empty.body" = "Older papers and anything you archive will appear here.";
+"archive.backToTimeline" = "Back to Timeline";
+
+"settings.title" = "Settings";
+"settings.documents" = "Documents";
+"settings.manageStatuses" = "Manage statuses";
+"settings.manageStatuses.subtitle" = "Add, edit and reorder";
+"settings.appearance" = "Appearance";
+"settings.language" = "Language";
+"settings.storage" = "Storage";
+"settings.images" = "Images";
+"settings.savedOnDevice" = "Saved on this device";
+"settings.inAppStorage" = "In app storage";
+"settings.storage.note" = "Images remain on this device. No backup, export or sync.";
+
+"appearance.system" = "System";
+"appearance.light" = "Light";
+"appearance.dark" = "Dark";
+"language.english" = "English";
+"language.arabic" = "Arabic";
+
+"scan.permission.title" = "Use your camera";
+"scan.permission.body" = "Allow camera access to capture your documents.";
+"scan.permission.continue" = "Continue";
+"scan.permission.notNow" = "Not now";
+"scan.permission.storageNote" = "Images are saved inside Athar on this device.";
+
+"common.close" = "Close";
+"common.back" = "Back";
+
+"statuses.manage.title" = "Manage statuses";
+"statuses.add" = "Add status";
+"statuses.add.title" = "Add status";
+"statuses.add.action" = "Add status";
+"statuses.edit" = "Edit status";
+"statuses.edit.title" = "Edit status";
+"statuses.moveUp" = "Move up";
+"statuses.moveDown" = "Move down";
+"statuses.retired" = "Retired";
+"statuses.reactivate" = "Reactivate status";
+"statuses.archiveNote" = "Archived documents stay unchanged.";
+"statuses.editor.name" = "Name";
+"statuses.editor.namePlaceholder" = "Status name";
+"statuses.editor.color" = "Color";
+"statuses.editor.colorChoice" = "Status color";
+"statuses.editor.icon" = "Icon";
+"statuses.editor.preview" = "Preview";
+"statuses.editor.availableHint" = "Available when saving or changing a document.";
+"statuses.editor.historyNote" = "Changes apply to active documents. Archived labels and history stay the same.";
+"statuses.validation.blank" = "Enter a status name.";
+"statuses.validation.duplicate" = "A status with this name already exists.";
+"statuses.validation.long" = "Use 40 characters or fewer.";
+"statuses.validation.saveFailed" = "Couldn’t save this status. Try again.";
+"statuses.delete.title" = "Delete unused status?";
+"statuses.delete.message" = "This status is not used by any documents.";
+"statuses.delete.action" = "Delete status";
+"statuses.retire.title" = "Retire this status?";
+"statuses.retire.message" = "It will disappear from new selections. Existing documents and history will keep it.";
+"statuses.retire.action" = "Retire status";
+"statuses.keepOne.title" = "Status required";
+"statuses.keepOne.message" = "Keep at least one status available. Add another first.";
+
+"common.cancel" = "Cancel";
+"common.ok" = "OK";
+"common.more" = "More actions";
+"common.saveChanges" = "Save changes";
+
+"scan.denied.title" = "Camera access is off";
+"scan.denied.body" = "Enable camera access in Settings to scan a paper.";
+"scan.denied.settings" = "Open Settings";
+
+"document.new.title" = "New document";
+"document.enlarge" = "View full image";
+"document.retake" = "Retake";
+"document.name" = "Document name";
+"document.name.placeholder" = "Optional";
+"document.status" = "Status";
+"document.status.choose" = "Choose status";
+"document.note" = "Add a note (optional)";
+"document.note.placeholder" = "Add a note…";
+"document.captured" = "Captured";
+"document.save" = "Save document";
+"document.saving" = "Saving…";
+"document.saving.device" = "Saving on this device.";
+"document.saveError.title" = "Couldn’t save the document.";
+"document.saveError.body" = "Your photo and details are still here. Try again.";
+
+"timeline.today" = "Today";
+"timeline.yesterday" = "Yesterday";
+"timeline.updated" = "Updated %@";
+
+"document.created" = "Created";
+"document.updated" = "Updated";
+"document.image.unavailable" = "Image unavailable";
+"document.viewer.hint" = "Pinch or double tap to zoom";
+"document.status.change" = "Change";
+"document.status.add" = "Add new status";
+"document.status.saveError" = "Couldn’t change the status. Try again.";
+"document.history.title" = "History";
+"document.history.viewAll" = "View all";
+"document.history.note" = "Created stays fixed. History keeps the labels used at the time.";
+"document.history.created" = "Created document";
+"document.history.statusChanged" = "Status changed";
+"document.history.noteAdded" = "Note added";
+"document.history.nameChanged" = "Name changed";
+"document.history.archived" = "Archived manually";
+"document.history.restored" = "Restored to Timeline";
+"document.history.updated" = "Updated";
+"document.notes.title" = "Notes";
+"document.notes.empty" = "No notes yet.";
+"document.note.add" = "Add note";
+"document.note.save" = "Save note";
+"document.note.saveError" = "Couldn’t save the note. Try again.";
+"document.note.discard.title" = "Discard note?";
+"document.note.discard.keep" = "Keep editing";
+"document.note.discard.action" = "Discard";
+
+"common.undo" = "Undo";
+
+"document.archive.action" = "Archive document";
+"document.restore.action" = "Restore to Timeline";
+"document.delete.action" = "Delete document";
+"document.delete.confirm.title" = "Delete document permanently?";
+
+"archive.search.placeholder" = "Search archive";
+"archive.search.clear" = "Clear search";
+"archive.search.empty" = "No matching documents";
+"archive.week.this" = "This week";
+"archive.week.older" = "Older week";
+"archive.reason.manual" = "Archived manually";
+"archive.reason.automatic" = "Older than 7 days";
+"archive.badge" = "Archived";
+"archive.statusWhenArchived" = "Status when archived";
+"archive.archivedAt" = "Archived";
+"archive.restore.note" = "Returns for 7 days. Original dates are kept.";
+"archive.feedback.archived" = "Document archived";
+"archive.feedback.restored" = "Back in Timeline for 7 days.";
+
+"timeline.section.week" = "Week";
+"timeline.section.restored" = "Restored";
+
+"common.tryAgain" = "Try again";
+
+"scan.error.title" = "Couldn’t open the scanner";
+"scan.error.body" = "The scanner isn’t available right now. Try again, or go back to Timeline.";
+
+"document.saveError.retry" = "Retry save";
+"document.discard.title" = "Discard this document?";
+"document.discard.body" = "The captured image and unsaved details will be discarded.";
+"document.discard.keep" = "Keep editing";
+"document.discard.action" = "Discard";
+
+"document.image.error.title" = "Couldn’t open this image";
+"document.image.error.body" = "The document details and history are still available on this device.";
+"document.image.retry" = "Retry image";
+"document.saveError.storageTitle" = "Not enough space to save";
+"document.saveError.storageBody" = "Free some space on your device, then try again. Your photo is still here.";
+
+"timeline.firstLaunch.title" = "Track your first paper";
+"timeline.firstLaunch.body" = "Scan a document and choose its status. Images stay on this device.";
+
+"settings.images.gallery.title" = "Images";
+"settings.images.gallery.empty" = "No saved images yet";
+
+"document.delete.sheet.title" = "Delete this document?";
+"document.delete.sheet.body" = "Its image, notes and history will be permanently removed from this device.";
