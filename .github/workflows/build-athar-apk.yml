@@ -1,0 +1,57 @@
+name: Build Athar APK
+
+on:
+  push:
+    branches:
+      - build/android-apk-v8-final
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK 37
+        shell: bash
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platforms;android-37" "build-tools;37.0.0"
+
+      - name: Restore final Android source
+        shell: bash
+        run: |
+          mkdir -p .ci/source
+          base64 --decode .ci/athar-final-android.b64 > .ci/athar-final-android.zip
+          unzip -q .ci/athar-final-android.zip -d .ci/source
+          chmod +x .ci/source/android/gradlew
+
+      - name: Build debug APK
+        shell: bash
+        working-directory: .ci/source/android
+        run: |
+          ./gradlew --stop || true
+          ./gradlew clean assembleDebug --no-daemon --no-configuration-cache
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Athar-debug-apk
+          path: .ci/source/android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 1
